@@ -1,0 +1,16 @@
+/* All / Home feed tweaks */
+.ad-card .thumb {
+  border-style: solid;
+  border-color: #222;
+}
+
+.mix-card .thumb::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 72px;
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.35));
+  pointer-events: none;
+}

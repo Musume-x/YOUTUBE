@@ -1,0 +1,13 @@
+.page-music .mix-card .thumb {
+  border-radius: 8px;
+}
+
+.page-music .mix-label {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  text-shadow: 0 1px 4px #000;
+}
